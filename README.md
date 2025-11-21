@@ -75,21 +75,13 @@ This will:
 - Frontend: http://localhost
 - Backend API: http://localhost:5000
 
-**See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment guide including cloud platforms!**
+<!-- Deployment details are included in this README. -->
 
 ---
 
-## 📖 Documentation
-
-- **[DEPLOYMENT.md](DEPLOYMENT.md)** - 🐳 Docker deployment & production guide
-- **[START_HERE.md](START_HERE.md)** - Detailed setup instructions for manual installation
-- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Common tasks and troubleshooting
-- **backend/README.md** - Backend API documentation
-- **frontend/README.md** - Frontend architecture details
-
 ## 📖 Manual Setup (Alternative)
 
-If you prefer to start servers manually, see [START_HERE.md](START_HERE.md) for detailed step-by-step instructions.
+If you prefer to start servers manually, step-by-step instructions are included below in the "Quick Start" and "Manual Setup" sections. Follow the development or production instructions in this README to get the app running on your host.
 
 ## 🏗️ Architecture
 

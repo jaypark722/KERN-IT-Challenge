@@ -1,5 +1,6 @@
 @echo off
-cd /d "e:\Boar\My Documents\becode\Repositories\KERN-IT\frontend"
+REM Change to the directory where this script is located, then start the frontend
+cd /d "%~dp0"
 set BROWSER=none
 npm start 2>&1
 pause
