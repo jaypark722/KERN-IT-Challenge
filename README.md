@@ -268,7 +268,7 @@ JWT-based authentication with:
 - Axios
 - CSS3 (Responsive design)
 
-## 📝 Development Notes
+## Development Notes
 
 - Backend uses application factory pattern
 - Frontend uses functional components and hooks
@@ -278,7 +278,7 @@ JWT-based authentication with:
 - Password hashing with Werkzeug
 - Responsive design for mobile/tablet/desktop
 
-## 🔒 Security Considerations
+## Security Considerations
 
 - Passwords hashed using Werkzeug
 - JWT tokens for stateless authentication
