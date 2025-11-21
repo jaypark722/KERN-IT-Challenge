@@ -72,7 +72,7 @@ docker-compose down
 
 If you prefer to run the backend and frontend separately for development:
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (Flask + SQLite)
 - **Framework**: Flask 3.0
