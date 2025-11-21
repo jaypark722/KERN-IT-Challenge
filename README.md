@@ -297,4 +297,3 @@ KERN-IT Project
 
 ---
 
-**Happy Time Tracking! ⏱️**
