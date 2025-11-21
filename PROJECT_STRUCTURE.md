@@ -66,7 +66,7 @@ KERN-IT/
     └── README.md                      # Frontend documentation
 ```
 
-## 📊 Component Relationships
+## Component Relationships
 
 ### Backend Data Flow
 ```
@@ -112,7 +112,7 @@ Component State (Local)
     └── Filters (useState)
 ```
 
-## 🔑 Key Files Description
+## Key Files Description
 
 ### Backend
 
@@ -208,7 +208,7 @@ Component State (Local)
 - Status management
 - Color picker
 
-## 📦 Dependencies Overview
+## Dependencies Overview
 
 ### Backend (Python)
 - **Flask**: Web framework

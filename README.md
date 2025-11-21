@@ -2,7 +2,7 @@
 
 A full-stack web application for tracking time across projects with a RESTful API backend and modern React frontend.
 
-## 🎯 What Does This App Do?
+## What Does This App Do?
 
 **Time Keeper** is a professional time tracking application that helps you:
 - **Track Time**: Log hours worked on different projects with start/end times
@@ -14,7 +14,7 @@ A full-stack web application for tracking time across projects with a RESTful AP
 
 Perfect for freelancers, consultants, or anyone who needs to track time spent on various projects!
 
-## ✨ Key Features
+## Key Features
 
 ### User Management
 - Secure registration and login
@@ -41,25 +41,11 @@ Perfect for freelancers, consultants, or anyone who needs to track time spent on
 - Filter entries by project, date range, or billing status
 - Summary statistics for total hours worked
 
-## 🚀 Quick Start (Easy Way)
+## Quick Start
 
-### Development Mode
+### Option 1: Docker (Recommended)
 
-The easiest way to start the application for development:
-
-**Option 1: Double-click (Windows)**
-Simply double-click `START.bat` in the project folder.
-
-**Option 2: Command line**
-```powershell
-python launch.py
-```
-
-This will automatically start both backend and frontend servers in development mode.
-
-### Production Mode with Docker 🐳
-
-For production deployment or if you prefer Docker:
+The easiest way to run the application:
 
 ```bash
 docker-compose up -d
@@ -75,13 +61,16 @@ This will:
 - Frontend: http://localhost
 - Backend API: http://localhost:5000
 
-<!-- Deployment details are included in this README. -->
+To stop the services:
+```bash
+docker-compose down
+```
 
 ---
 
-## 📖 Manual Setup (Alternative)
+## Option 2: Manual Setup
 
-If you prefer to start servers manually, step-by-step instructions are included below in the "Quick Start" and "Manual Setup" sections. Follow the development or production instructions in this README to get the app running on your host.
+If you prefer to run the backend and frontend separately for development:
 
 ## 🏗️ Architecture
 
@@ -99,7 +88,7 @@ If you prefer to start servers manually, step-by-step instructions are included 
 - **Styling**: Modern responsive CSS with component-scoped styles
 - **HTTP Client**: Axios with JWT interceptors
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 KERN-IT/
@@ -129,13 +118,11 @@ KERN-IT/
     └── README.md           # Frontend documentation
 ```
 
-## 🚀 Quick Start
-
 ### Prerequisites
 
 - **Python 3.8+**
 - **Node.js 16+** and npm
-- **PostgreSQL 12+**
+- **PostgreSQL 12+** (or use Docker which includes PostgreSQL)
 
 ### Backend Setup
 
@@ -197,7 +184,7 @@ KERN-IT/
    ```
    Frontend runs at `http://localhost:3000`
 
-## 📊 Database Schema
+## Database Schema
 
 ### User
 - `id`, `username`, `email`, `password_hash`
@@ -215,7 +202,7 @@ KERN-IT/
 - `notes`, `is_billable`
 - Timestamps: `created_at`, `updated_at`
 
-## 🔐 Authentication
+## Authentication
 
 JWT-based authentication with:
 - Access tokens (1 hour expiry)
@@ -223,7 +210,7 @@ JWT-based authentication with:
 - Automatic token refresh on 401 errors
 - Token blacklisting for logout
 
-## 🎨 Features
+## Features
 
 ### Dashboard
 - Summary statistics (total hours, billable/non-billable)
@@ -242,7 +229,7 @@ JWT-based authentication with:
 - Status tracking (active, completed, archived)
 - Project-level statistics
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /auth/register` - Register new user
@@ -264,7 +251,7 @@ JWT-based authentication with:
 - `DELETE /api/entries/:id` - Delete entry
 - `GET /api/entries/summary` - Get statistics
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Backend
 - Flask 3.0
@@ -300,11 +287,11 @@ JWT-based authentication with:
 - Environment variables for sensitive data
 - SQL injection protection via ORM
 
-## 📄 License
+## License
 
 This project is created for educational purposes.
 
-## 👤 Author
+## Author
 
 KERN-IT Project
 
